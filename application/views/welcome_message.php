@@ -16,8 +16,104 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 	<!-- Favicons -->
-	<!-- <link href="/assets/img/favicon.png" rel="icon">
-	<link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+	<link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+	<link rel="manifest" href="/assets/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="/assets/favicon/ms-icon-144x144.png">
+
+	<meta name="theme-color" content="#ffffff">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Home - Society Empowering Project" />
+	<meta property="og:url" content="https://sepke.org/" />
+	<meta property="og:site_name" content="Society Empowering Project" />
+	<meta property="article:publisher" content="https://www.facebook.com/kenyasep/" />
+	<meta property="article:modified_time" content="2021-05-15T09:16:41+00:00" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<script type="application/ld+json" class="yoast-schema-graph">
+		{
+			"@context": "https://schema.org",
+			"@graph": [{
+				"@type": "Organization",
+				"@id": "https://sepke.org/#organization",
+				"name": "Society Empowerment Project",
+				"url": "https://sepke.org/",
+				"sameAs": ["https://www.facebook.com/kenyasep/"],
+				"logo": {
+					"@type": "ImageObject",
+					"@id": "https://sepke.org/#logo",
+					"inLanguage": "en-US",
+					"url": "https://sepke.org/wp-content/uploads/2021/01/cropped-logo.png",
+					"contentUrl": "https://sepke.org/wp-content/uploads/2021/01/cropped-logo.png",
+					"width": 147,
+					"height": 53,
+					"caption": "Society Empowerment Project"
+				},
+				"image": {
+					"@id": "https://sepke.org/#logo"
+				}
+			}, {
+				"@type": "WebSite",
+				"@id": "https://sepke.org/#website",
+				"url": "https://sepke.org/",
+				"name": "Society Empowering Project",
+				"description": "Development through Sports",
+				"publisher": {
+					"@id": "https://sepke.org/#organization"
+				},
+				"potentialAction": [{
+					"@type": "SearchAction",
+					"target": {
+						"@type": "EntryPoint",
+						"urlTemplate": "https://sepke.org/?s={search_term_string}"
+					},
+					"query-input": "required name=search_term_string"
+				}],
+				"inLanguage": "en-US"
+			}, {
+				"@type": "WebPage",
+				"@id": "https://sepke.org/#webpage",
+				"url": "https://sepke.org/",
+				"name": "Home - Society Empowering Project",
+				"isPartOf": {
+					"@id": "https://sepke.org/#website"
+				},
+				"about": {
+					"@id": "https://sepke.org/#organization"
+				},
+				"datePublished": "2021-01-18T09:16:37+00:00",
+				"dateModified": "2021-05-15T09:16:41+00:00",
+				"breadcrumb": {
+					"@id": "https://sepke.org/#breadcrumb"
+				},
+				"inLanguage": "en-US",
+				"potentialAction": [{
+					"@type": "ReadAction",
+					"target": ["https://sepke.org/"]
+				}]
+			}, {
+				"@type": "BreadcrumbList",
+				"@id": "https://sepke.org/#breadcrumb",
+				"itemListElement": [{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Home"
+				}]
+			}]
+		}
+	</script>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -68,6 +164,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
 				<a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
 			</div>
+			<div class="img-button">
+				<img src="wp-content/uploads/2021/05/20210505_120112.jpg" alt="" />
+				<div class="btn-overlay">
+					<form action="https://www.paypal.com/donate" method="post" target="_top">
+						<input type="hidden" name="hosted_button_id" value="NK8FC8QRNLRKS" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+						<img alt="" border="0" src="https://www.paypal.com/en_KE/i/scr/pixel.gif" width="1" height="1" />
+					</form>
+					<!-- 								<a href="#" class="btn btn-primary">DONATE NOW</a> -->
+				</div>
+			</div>
 
 		</div>
 	</header><!-- End Header -->
@@ -104,6 +211,54 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Wash Program.</h2>
+							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(assets/uploads/2021/05/IMG_6741.jpg);">
+					<div class="carousel-container">
+						<div class="carousel-content animate__animated animate__fadeInUp">
+							<h2>SEP Women Rescue and Empowerment Center programs.</h2>
+							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(assets/uploads/2021/05/20210504_153029.jpg);">
+					<div class="carousel-container">
+						<div class="carousel-content animate__animated animate__fadeInUp">
+							<h2>SEP Poultry Program.</h2>
+							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(assets/uploads/2021/05/20210504_155518-scaled.jpg);">
+					<div class="carousel-container">
+						<div class="carousel-content animate__animated animate__fadeInUp">
+							<h2>SEP U-16 Football Program.</h2>
+							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(assets/uploads/2021/05/SEP-BUYA-6.jpg);">
+					<div class="carousel-container">
+						<div class="carousel-content animate__animated animate__fadeInUp">
+							<h2>SEP Leadership Development Program.</h2>
+							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(assets/uploads/2021/05/20210505_115412.jpg);">
+					<div class="carousel-container">
+						<div class="carousel-content animate__animated animate__fadeInUp">
+							<h2>SEP Horticulture Program.</h2>
+							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item" style="background-image: url(assets/uploads/2021/05/periodpant.jpeg);">
+					<div class="carousel-container">
+						<div class="carousel-content animate__animated animate__fadeInUp">
+							<h2>SEP SEXUAL AND REPRODUCTIVE HEALTH RIGHTS PROGRAM.</h2>
 							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
 						</div>
 					</div>
@@ -152,7 +307,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</p>
 					</div> -->
 				</div>
+				<div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="spacer-50"></div>
+					<div class="text-center">
+						<a href="causes.html" class="btn btn-primary mt-3 ">SEE ALL CAUSES</a>
 
+						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary  mt-3 ml-3"><i class="fa fa-download" aria-hidden="true"></i> NEWS LETTER</a>
+
+						<a href="/assets/uploads/2021/04/SEP-Intro-Letter.doc" target='_blank' class="btn btn-primary mt-3 ml-3"><i class="fa fa-download" aria-hidden="true"></i> INTRO LETTER</a>
+
+						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary mt-3 ml-3"><i class="fa fa-download" aria-hidden="true"></i> ARCHIVES</a>
+
+
+					</div>
+				</div>
 			</div>
 		</section><!-- End About Us Section -->
 
