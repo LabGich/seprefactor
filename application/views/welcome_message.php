@@ -151,7 +151,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<li><a href="team.html">Staff & Volunteers</a></li>
 						</ul>
 					</li>
-					<li><a href="services.html">Programs/Projects/Causes</a></li>
+					<li class="dropdown"><a href="#"><span>Programs/Projects/Causes</span> <i class="bi bi-chevron-down"></i></a>
+						<ul>
+							<li><a href="sexualhealth.html">Sexual and Reproductive Health</a></li>
+							<li><a href="healthhygiene.html">Health and Hygiene</a></li>
+							<li><a href="communitydevelopment.html">Community Development</a></li>
+							<li><a href="soccer.html">Soccer/Football Program </a></li>
+							<li><a href="youth-self-help-agriculture-program.html">Youth Self-Help Agriculture Program</a></li>
+							<li> <a href="causes.html">All Causes </a></li>
+						</ul>
+					</li>
 					<li><a href="contact.html">Contact Us</a></li>
 
 				</ul>
