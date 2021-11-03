@@ -6,6 +6,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <html lang="en">
 
 <?php include 'head.php' ?>
+
 <body>
 
 	<!-- ======= Header ======= -->
@@ -215,63 +216,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 			</div>
 		</section>
-		<div class="container" data-aos="fade-up">
-			<div class="section cta" data-background="https://sepke.org/wp-content/themes/CoolTheme/images/bg-map-dot.jpg">
-				<div class="content-wrap content-wrap-2x">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-3 col-md-3">
-								<div class="rs-icon-funfact">
-									<div class="icon">
-										<i class="bx bx-file bx-lg" data-width="250"></i>
-									</div>
-									<div class="body-content">
-										<h2>12,280</h2>
-										<p class="uk18">Projects Complete</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-3 col-md-3">
-								<div class="rs-icon-funfact">
-									<div class="icon">
-										<i class="bx bx-user bx-lg"></i>
-									</div>
-									<div class="body-content">
-										<h2>1,825</h2>
-										<p class="uk18">Our Team</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-3 col-md-3">
-								<div class="rs-icon-funfact">
-									<div class="icon">
-										<i class="bx bx-trophy bx-lg"></i>
-									</div>
-									<div class="body-content">
-										<h2>37</h2>
-										<p class="uk18">Awards</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-3 col-md-3">
-								<div class="rs-icon-funfact">
-									<div class="icon">
-										<i class="bx bx-male bx-lg"></i>
-									</div>
-									<div class="body-content">
-										<h2>256,861</h2>
-										<p class="uk18">Volunteer</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		<?php include 'counter.php' ?>
 		<section id="clients" class="clients">
 			<div class="container" data-aos="fade-up">
 
@@ -358,7 +303,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 			</div>
 		</section><!-- End Our Clients Section -->
+		<div class="container-fliud p-2" data-aos="fade-up">
 
+			<div class="row content">
+				<div class="col-lg-9" data-aos="fade-right">
+					<h3>
+						Help us continue to empower youths in Kenya and worldwide.
+					</h3>
+				</div>
+				<div class="col-lg-3" data-aos="fade-left">
+					<form action="https://www.paypal.com/donate" method="post" target="_top">
+						<input type="hidden" name="hosted_button_id" value="2MT9ZD7Y29KXY" />
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+						<img alt="" border="0" src="https://www.paypal.com/en_KE/i/scr/pixel.gif" width="1" height="1" />
+					</form>
+				</div>
+			</div>
+
+		</div>
 	</main><!-- End #main -->
 
 	<!-- ======= Footer ======= -->

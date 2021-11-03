@@ -3,12 +3,12 @@
 
 			<!-- <h1 class="logo me-auto"><a href="index.html"><span>Com</span>pany</a></h1> -->
 			<!-- Uncomment below if you prefer to use an image logo -->
-			<a href="index.html" class="logo me-auto me-lg-0"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>
+			<a href="/Home" class="logo me-auto me-lg-0"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>
 
 			<nav id="navbar" class="navbar order-last order-lg-0">
 				<ul>
-					<li><a href="index.html" class="active">Home</a></li>
-					<li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+					<li><a href="/Home" <?php if ($_SESSION['page'] == 'homepage') {  ?> class="active" <?php } ?> >Home</a></li>
+					<li class="dropdown"><a href="/Home/About" <?php if ($_SESSION['page'] == 'about') {  ?> class="active" <?php } ?>><span>About</span> <i class="bi bi-chevron-down"></i></a>
 						<ul>
 							<li><a href="about.html">About Us</a></li>
 							<li><a href="team.html">Staff & Volunteers</a></li>
@@ -35,9 +35,11 @@
 				<a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
 				<a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
 				<a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
+				<a href="mailto:info@sepke.org"><i class="bi bi-envelope-fill"></i>info@sepke.org</a>
 			</div>
-			<div class="img-button">
-				<img src="wp-content/uploads/2021/05/20210505_120112.jpg" alt="" />
+			
+			
+			<div class="img-button ml-2">
 				<div class="btn-overlay">
 					<form action="https://www.paypal.com/donate" method="post" target="_top">
 						<input type="hidden" name="hosted_button_id" value="NK8FC8QRNLRKS" />

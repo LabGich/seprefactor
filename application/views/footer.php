@@ -14,8 +14,8 @@
 							<span class="bx bx-map bx-sm"></span><br>
 							Oyugis Town, Homabay county. Kenya.<br><br>
 
-							<strong>Phone:</strong> <a href="tel:+254 724 361 678">+254 724 361 678</a><br>
-							<strong>Email:</strong> <a href="mailto:info@sepke.org">info@sepke.org</a><br>
+							<strong><i class="bi bi-telephone-outbound-fill"></i> :</strong> <a href="tel:+254 724 361 678">+254 724 361 678</a><br>
+							<strong><i class="bi bi-envelope-fill"></i> :</strong> <a href="mailto:info@sepke.org">info@sepke.org</a><br>
 						</p>
 					</div>
 
@@ -27,6 +27,7 @@
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Programs/Projects/Causes</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Gallery</a></li>
 							<li><i class="bx bx-chevron-right"></i> <a href="#">Faq</a></li>
+							<li><i class="bx bx-chevron-right"></i> <a href="#">Events</a></li>
 						</ul>
 					</div>
 
