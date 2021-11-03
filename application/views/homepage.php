@@ -279,7 +279,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<h2>Meet <span>Our</span> Volunteers</h2>
 				</div>
 				<div class="row">
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-lg-3 col-md-6">
 						<div class="rs-team-1">
 							<div class="media">
 								<img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" />
@@ -300,7 +300,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-lg-3 col-md-6">
 						<div class="rs-team-1">
 							<div class="media">
 								<img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" />
@@ -321,7 +321,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-lg-3 col-md-6">
 						<div class="rs-team-1">
 							<div class="media">
 								<img style="width: 255px; height: 230px;" src="/assets/uploads/2021/03/cQkY9g.jpg" alt="" />
@@ -342,7 +342,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</div>
 					</div>
 
-					<div class="col-sm-3 col-md-3">
+					<div class="col-sm-6 col-lg-3 col-md-6">
 						<div class="promo-ads" data-background="https://sepke.org/wp-content/themes/CoolTheme/images/banner-ads.jpg">
 							<div class="content text-black ">
 								<i class="bx bx-bell bx-lg p-2"></i>
