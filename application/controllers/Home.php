@@ -14,4 +14,9 @@ class Home extends CI_Controller {
 		$_SESSION['page'] = 'about';
 		$this->load->view('about');
 	}
+	function Contact()
+	{
+		$_SESSION['page'] = 'contact';
+		$this->load->view('contact');
+	}
 }

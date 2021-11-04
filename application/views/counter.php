@@ -1,7 +1,7 @@
-<div class="container" data-aos="fade-up">
+<div class="container p-4" data-aos="fade-up">
 			<div class="section cta" data-background="/assets/img/bg-map-dot.jpg">
 				<div class="content-wrap content-wrap-2x">
-					<div class="container">
+					<div class="container p-4">
 						<div class="row">
 							<div class="col-sm-3 col-md-3">
 								<div class="rs-icon-funfact">

@@ -10,8 +10,8 @@
 					<li><a href="/Home" <?php if ($_SESSION['page'] == 'homepage') {  ?> class="active" <?php } ?> >Home</a></li>
 					<li class="dropdown"><a href="/Home/About" <?php if ($_SESSION['page'] == 'about') {  ?> class="active" <?php } ?>><span>About</span> <i class="bi bi-chevron-down"></i></a>
 						<ul>
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="team.html">Staff & Volunteers</a></li>
+							<li><a href="/Home/About">About Us</a></li>
+							<li><a href="/Home/About#team">Staff & Volunteers</a></li>
 						</ul>
 					</li>
 					<li class="dropdown"><a href="#"><span>Programs/Projects/Causes</span> <i class="bi bi-chevron-down"></i></a>
@@ -24,7 +24,7 @@
 							<li> <a href="causes.html">All Causes </a></li>
 						</ul>
 					</li>
-					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="/Home/Contact" <?php if ($_SESSION['page'] == 'contact') {  ?> class="active" <?php } ?>  >Contact Us</a></li>
 
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
