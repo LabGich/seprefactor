@@ -34,13 +34,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="row">
 
                     <div class="col-lg-8 entries">
-
+                        <div class="entry-img">
+                            <img src="/assets/uploads/2021/05/20210504_154802.jpg" alt="" class="img-fluid">
+                        </div>
                         <article class="entry">
-
-                            <div class="entry-img">
-                                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-                            </div>
-
                             <h2 class="entry-title">
                                 <a href="#">Bundesliga Youth Ambassadors</a>
                             </h2>
@@ -64,10 +61,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </ul>
                                 &nbsp;
 
-                                <br><img class="alignnone size-medium wp-image-1021" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0807-300x168.jpg" alt="" width="300" height="168" />
+                                <br><img class="alignnone size-medium wp-image-1021" src="/assets/uploads/2021/09/IMG_0807-300x168.jpg" alt="" width="300" height="168" />
 
 
-                                <img class="size-medium wp-image-1006" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0070-300x168.jpg" alt="" width="300" height="168" />
+                                <img class="size-medium wp-image-1006" src="/assets/uploads/2021/09/IMG_0070-300x168.jpg" alt="" width="300" height="168" />
                                 <br><br>
                                 This program a partnership with TSG 1899 Hoffenheim, street footballworld and Transforming Young Stars of Africa was to enable the BUYAS interact and learn from each other and  share what activities they undertake at their respective organizations. The wins and the challenges as well. A few success stories from the BUYAS and some challenging stories encouraged everyone to keep doing what they do and not to give up.
 
@@ -85,7 +82,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                                 SEP, CO-director, Lourraine, also briefed the BUYAS on the reproductive health department, where she showed them how the department makes and manages re-usable sanitary pads. In her talk, she talked about menstrual hygiene, pads drives and the reproductive health sessions that they hold with the young and adolescent girls. This department also takes credit for empowering the young women and girls through tailoring courses.
 
-                                <br><img class="alignnone size-medium wp-image-1010" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0326-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1009" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0262-300x168.jpg" alt="" width="300" height="168" />
+                                <br><img class="alignnone size-medium wp-image-1010" src="/assets/uploads/2021/09/IMG_0326-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1009" src="/assets/uploads/2021/09/IMG_0262-300x168.jpg" alt="" width="300" height="168" />
 
                                 &nbsp;
                                 <br>
@@ -98,17 +95,17 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                                 &nbsp;
 
-                                <br><img class="alignnone size-medium wp-image-1011" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0365-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1012" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0534-300x168.jpg" alt="" width="300" height="168" />
+                                <br><img class="alignnone size-medium wp-image-1011" src="/assets/uploads/2021/09/IMG_0365-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1012" src="/assets/uploads/2021/09/IMG_0534-300x168.jpg" alt="" width="300" height="168" />
 
-                                <br><img class="size-medium wp-image-1007" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0503-300x168.jpg" alt="" width="300" height="168" />
+                                <br><img class="size-medium wp-image-1007" src="/assets/uploads/2021/09/IMG_0503-300x168.jpg" alt="" width="300" height="168" />
 
-                                <br><img class="alignnone size-medium wp-image-1013" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0544-300x168.jpg" alt="" width="300" height="168" />
+                                <br><img class="alignnone size-medium wp-image-1013" src="/assets/uploads/2021/09/IMG_0544-300x168.jpg" alt="" width="300" height="168" />
                                 <h5>Day 2</h5>
                                 On the second day, BUYAS were treated to a historic trip to Lake Simbi, in Homa Bay County. Lake Simbi boasts of beautiful flamingoes which are a tourist attraction to the lake. Here they were told about the intriguing story behind the formation of Lake Simbi. They enjoyed a hike around the lake towards the flamingoes. They enjoyed the beautiful views, which they captured well.
 
                                 &nbsp;
 
-                                <br><img class="alignnone size-medium wp-image-1014" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0700-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1015" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0738-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1017" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0812-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1016" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0754-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1018" src="http://sepke.org/wp-content/uploads/2021/09/IMG_0866-300x168.jpg" alt="" width="300" height="168" />
+                                <br><img class="alignnone size-medium wp-image-1014" src="/assets/uploads/2021/09/IMG_0700-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1015" src="/assets/uploads/2021/09/IMG_0738-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1017" src="/assets/uploads/2021/09/IMG_0812-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1016" src="/assets/uploads/2021/09/IMG_0754-300x168.jpg" alt="" width="300" height="168" /> <img class="alignnone size-medium wp-image-1018" src="/assets/uploads/2021/09/IMG_0866-300x168.jpg" alt="" width="300" height="168" />
                                 <br>
                                 Later on, they team went to Kendu bay old town, a harbor off Kendu bay town. Here, they enjoyed a boat ride on the Lake Victoria, from the local fishermen.
 
@@ -126,7 +123,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <article class="entry">
 
                             <div class="entry-img">
-                                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
+                                <img src="/assets/uploads/2021/05/20210505_115412.jpg" alt="" class="img-fluid">
                             </div>
 
                             <h2 class="entry-title">
