@@ -14,7 +14,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- ======= Hero Section ======= -->
 
     <main id="main">
+    <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
 
+                <div class="d-flex justify-content-between align-items-center">
+                   
+                    <ol>
+                        <li><a href="/Home">Home</a></li>
+                        <li>Contact Us</li>
+                    </ol>
+                </div>
+
+            </div>
+        </section><!-- End Breadcrumbs -->
         <section id="contact" class="contact" style="margin-top:50px;">
             <div class="container">
 
@@ -80,7 +92,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             </div>
         </section><!-- End Contact Section -->
-        i
+        
         <div class="container-fliud p-2" data-aos="fade-up">
 
             <div class="row content">
