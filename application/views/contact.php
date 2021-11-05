@@ -78,13 +78,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
                             <div class="form-group mt-3">
                                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                            <div class="my-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                            </div>                            
+                            <div class="text-center "><button type="submit" class="btn-success p-2 mt-2" style="border-radius: 24px;">Send Message</button></div>
                         </form>
                     </div>
 

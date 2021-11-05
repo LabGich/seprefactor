@@ -142,7 +142,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div class="spacer-50"></div>
 					<div class="text-center">
-						<a href="causes.html" class="btn btn-primary mt-3 ">SEE ALL CAUSES</a>
+						<a href="/Home/Sexualhealth" class="btn btn-primary mt-3 ">SEE ALL CAUSES</a>
 
 						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary  mt-3 ml-3"><i class="bx bx-download" aria-hidden="true"></i> NEWS LETTER</a>
 
@@ -210,7 +210,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="col-sm-12 col-md-12 mt-3">
 					<div class="spacer-50"></div>
 					<div class="text-center">
-						<a href="causes.html" class="btn btn-primary">SEE ALL CAUSES</a>
+						<a href="/Home/Sexualhealth" class="btn btn-primary">SEE ALL CAUSES</a>
 					</div>
 				</div>
 
@@ -296,7 +296,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<p class="text-black">
 									Join us help the needy in our society </p>
 								<div class="spacer-30"></div>
-								<a href="contact.html" class="btn btn-secondary">JOIN US NOW</a>
+								<a href="/Home/Contact" class="btn btn-secondary">JOIN US NOW</a>
 							</div>
 						</div>
 					</div>
