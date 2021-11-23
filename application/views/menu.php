@@ -11,11 +11,15 @@
 				<li><a href="/Home" <?php if ($_SESSION['page'] == 'homepage') {  ?> class="active" <?php } ?>>Home</a></li>
 				<li class="dropdown"><a href="/Home/About" <?php if ($_SESSION['page'] == 'about') {  ?> class="active" <?php } ?>><span>About</span> <i class="bi bi-chevron-down"></i></a>
 					<ul>
-						<li><a href="/Home/About">About Us</a></li>
-						<li><a href="/Home/About#team">Staff & Volunteers</a></li>
+						<li><a href="/Home/About">Overview</a></li>
+						<li><a href="/Home/About#headingOneorigin">Core Principles</a></li>
+						<li><a href="/Home/About#impact">Our Impact</a></li>
+						<li><a href="/Home/About#team">Our Team</a></li>
+						<li><a href="/Home/About#partners">Partners</a></li>
+						<li><a href="/Home/About#headingOneorigin">Our History</a></li>
 					</ul>
 				</li>
-				<li class="dropdown"><a href="#"><span>Programs/Projects/Causes</span> <i class="bi bi-chevron-down"></i></a>
+				<li class="dropdown"><a href="#"><span>Programs</span> <i class="bi bi-chevron-down"></i></a>
 					<ul>
 						<li><a <?php if ($_SESSION['page'] == 'sexualhealth') {  ?> class="active" <?php } ?> href="/Home/sexualhealth">Sexual and Reproductive Health</a></li>
 						<li><a <?php if ($_SESSION['page'] == 'healthhygiene') {  ?> class="active" <?php } ?> href="/Home/healthhygiene">Health and Hygiene</a></li>

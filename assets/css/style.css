@@ -12,7 +12,7 @@ a {
 }
 
 a:hover {
-    color: #007acc;
+    color: #006400;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ h6 {
 .meta-date {
     text-align: center;
     margin-right: 20 px;
-    background-color: #007acc;
+    background-color: #006400;
     color: #fff;
     padding: 10 px;
     width: 80 px;
@@ -96,7 +96,7 @@ h6 {
     top: 0;
     left: 95px;
     z-index: 9;
-    color: #007acc;
+    color: #006400;
     font-size: 18px;
 }
 
@@ -122,7 +122,7 @@ h6 {
 }
 
 .testimonial-1 .title {
-    color: #007acc;
+    color: #006400;
     font-weight: 700;
     font-size: 16px;
 }
@@ -145,7 +145,7 @@ h6 {
     margin-bottom: 30px;
     margin-left: 0;
     margin-bottom: 100px;
-    background-color: #007acc;
+    background-color: #006400;
 }
 
 .testimonial-2 .body {
@@ -164,7 +164,7 @@ h6 {
     margin-top: -40px;
     float: right;
     min-width: 290px;
-    border-bottom: 2px solid #007acc;
+    border-bottom: 2px solid #006400;
     height: 90px;
     position: relative;
     z-index: 3;
@@ -181,7 +181,7 @@ h6 {
 }
 
 .testimonial-2 .info .title {
-    color: #007acc;
+    color: #006400;
     font-weight: 700;
     font-size: 16px;
 }
@@ -920,7 +920,7 @@ section {
 }
 
 .services .iconbox-blue i {
-    color: #47aeff;
+    color: #006400;
 }
 
 .services .iconbox-blue:hover .icon i {
@@ -928,7 +928,7 @@ section {
 }
 
 .services .iconbox-blue:hover .icon path {
-    fill: #47aeff;
+    fill: #006400;
 }
 
 .services .iconbox-orange i {
@@ -1476,7 +1476,7 @@ section {
 }
 
 .pricing .btn-buy:hover {
-    background: #007acc;
+    background: #006400;
 }
 
 .pricing .featured h3 {
@@ -1772,7 +1772,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-    background: #007acc;
+    background: #006400;
 }
 
 @-webkit-keyframes animate-loading {
@@ -2432,7 +2432,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type=submit]:hover {
-    background: #007acc;
+    background: #006400;
 }
 
 #footer .credits {

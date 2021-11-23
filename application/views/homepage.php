@@ -23,7 +23,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>Welcome to <span>Society Empowerment Program</span></h2>
 							<p>SEP Bundesliga Young Ambassadors Program.</p>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -33,7 +33,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Ladies Soccer Team.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -43,7 +43,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Wash Program.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -51,7 +51,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Women Rescue and Empowerment Center programs.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -59,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Poultry Program.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -67,7 +67,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP U-16 Football Program.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -75,7 +75,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Leadership Development Program.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -83,7 +83,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP Horticulture Program.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -91,7 +91,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="carousel-container">
 						<div class="carousel-content animate__animated animate__fadeInUp">
 							<h2>SEP SEXUAL AND REPRODUCTIVE HEALTH RIGHTS PROGRAM.</h2>
-							<div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
+
 						</div>
 					</div>
 				</div>
@@ -142,15 +142,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div class="spacer-50"></div>
 					<div class="text-center">
-						<a href="/Home/Sexualhealth" class="btn btn-primary mt-3 ">SEE ALL CAUSES</a>
-
-						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary  mt-3 ml-3"><i class="bx bx-download" aria-hidden="true"></i> NEWS LETTER</a>
-
-						<a href="/assets/uploads/2021/04/SEP-Intro-Letter.doc" target='_blank' class="btn btn-primary mt-3 ml-3"><i class="bx bx-download" aria-hidden="true"></i> INTRO LETTER</a>
-
-						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary mt-3 ml-3"><i class="bx bx-download" aria-hidden="true"></i> ARCHIVES</a>
-
-
+						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary  mt-3 ml-3" style="background-color: #006400;border-color: #006400;"><i class="bx bx-download" aria-hidden="true"></i> NEWS LETTER</a>
+						<a href="/assets/uploads/2021/04/SEP-Intro-Letter.doc" target='_blank' class="btn btn-primary mt-3 ml-3" style="background-color: #006400;border-color: #006400;"><i class="bx bx-download" aria-hidden="true"></i> INTRO LETTER</a>
 					</div>
 				</div>
 			</div>
@@ -205,12 +198,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-12 mt-3">
-					<div class="spacer-50"></div>
-					<div class="text-center">
-						<a href="/Home/Sexualhealth" class="btn btn-primary">SEE ALL CAUSES</a>
 					</div>
 				</div>
 

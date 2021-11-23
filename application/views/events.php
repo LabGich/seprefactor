@@ -18,9 +18,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                  
+
                     <ol>
-                        <li><a href="/Home">Home</a></li>
                         <li>Events</li>
                     </ol>
                 </div>
@@ -30,21 +29,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <section id="services" class="services section-bg">
             <div class="container" data-aos="fade-up">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box iconbox-blue">
-                            <div class="meta-date p-3">
-                                <div class="date">28</div>
-                                <div class="month">May</div>
-                            </div>
-                            <div class="media">
+
+                <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box iconbox-blue">
+                        <div class="meta-date p-3">
+                            <div class="date">28</div>
+                            <div class="month">May</div>
+                        </div>
+                        <div class="row">
+                            <div class="media col-6">
                                 <img class="img-fluid" src="/assets/uploads/2021/05/20210504_112309.jpg" alt="" style="height: 281px;" />
                             </div>
-                            <div class="body-content">
+                            <div class="body-content col-6">
 
                                 <h3> MENSTRUAL HYGIENE DAY </h3>
                                 <span class="date"><i class="bx bx-timer bx-md"> 12:00 - 17:00</i> </span>
-                                <span class="location"><i class="bx bx-map bx-md"> Homabay, Kenya</i>  </span>
+                                <span class="location"><i class="bx bx-map bx-md"> Homabay, Kenya</i> </span>
                                 <br>
                                 <br>
                                 <div class="text" style="text-align: left;">
@@ -53,21 +53,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box iconbox-blue">
-                            <div class="meta-date p-3">
-                                <div class="date">15</div>
-                                <div class="month">OCTOBER</div>
-                            </div>
-                            <div class="media">
+                </div>
+                <br>
+                <br>
+                <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box iconbox-blue">
+                        <div class="meta-date p-3">
+                            <div class="date">15</div>
+                            <div class="month">OCTOBER</div>
+                        </div>
+                        <div class="row">
+                            <div class="media col-6">
                                 <img class="img-fluid" src="/assets/uploads/2021/05/20210504_110154.jpg" alt="" style="height: 281px;" />
                             </div>
-                            <div class="body-content">
+                            <div class="body-content col-6">
 
                                 <h3>WORLD HAND WASHING DAY</h3>
-                                <span class="date"><i class="bx bx-timer bx-md"> 09:00 - 14:00</i>  </span>
-                                <span class="location"><i class="bx bx-map bx-md"> Homabay, Kenya</i>  </span>
+                                <span class="date"><i class="bx bx-timer bx-md"> 09:00 - 14:00</i> </span>
+                                <span class="location"><i class="bx bx-map bx-md"> Homabay, Kenya</i> </span>
                                 <br>
                                 <br>
                                 <div class="text" style="text-align: left;">
@@ -76,40 +79,44 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="icon-box iconbox-blue">
-                            <div class="meta-date p-3">
-                                <div class="date">2021 </div>
-                                <div class="month">Jan - Date</div>
-                            </div>
-                            <div class="media">
+                <br>
+                <br>
+                <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="icon-box iconbox-blue">                       
+                        <div class="row">
+                            <div class="media col-6">
                                 <img class="img-fluid" src="/assets/uploads/2021/05/20210504_105701.jpg" alt="" style="height: 281px;" />
                             </div>
-                            <div class="body-content">
+                            <div class="body-content col-6">
+
                                 <h3> Past Events</h3>
                                 <span class="date"><i class="bx bx-timer bx-md"> 08:00 - 12:00</i> </span>
-                                <span class="location"><i class="bx bx-map bx-md"> Homabay, Kenya</i>  </span>
+                                <span class="location"><i class="bx bx-map bx-md"> Homabay, Kenya</i> </span>
                                 <br>
                                 <br>
                                 <div class="text" style="text-align: left;">
-                                    20 FEBRUARY 2021-SEP WOMEN SOCCER TRIALS
-                                    <br>
-                                    22 ND MARCH-WORLD WATER DAY
-                                    <br>
-                                    27 MARCH 2021- WOREC MENESTRUAL HYGIENE WORKSHOP
-                                    <br>
-                                    16 APRIL –BUYA’s U-16 SMALL SIDED TOURNAMENT
-                                    <br>
-                                    21 APRIL 2021-NATIONAL TREE PLANTING DAY
-                                    <br>
-                                    1 MAY 2021 – BUYA’s HIV/AIDS AWARENESS AND
-                                    <br>
+                                    <p>20 FEBRUARY 2021-SEP WOMEN SOCCER TRIALS
+                                        <br>
+                                        22 ND MARCH-WORLD WATER DAY
+                                        <br>
+                                        27 MARCH 2021- WOREC MENESTRUAL HYGIENE WORKSHOP
+                                        <br>
+                                        16 APRIL –BUYA’s U-16 SMALL SIDED TOURNAMENT
+                                        <br>
+                                        21 APRIL 2021-NATIONAL TREE PLANTING DAY
+                                        <br>
+                                        1 MAY 2021 – BUYA’s HIV/AIDS AWARENESS AND
+                                        <br>
+                                    </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
             </div>
         </section>
         <div class="container-fliud p-2" data-aos="fade-up">

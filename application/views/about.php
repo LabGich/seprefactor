@@ -20,8 +20,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                 <div class="d-flex justify-content-between align-items-center">
                 
-                    <ol>
-                        <li><a href="/Home">Home</a></li>
+                    <ol>                        
                         <li>About</li>
                     </ol>
                 </div>
@@ -47,7 +46,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <img src="/assets/uploads/2021/06/WhatsApp-Image-2021-06-09-at-20.36.35.jpeg" class="img-fluid" alt="" />
                     </div>
                 </div>
-                <div class="container-fluid p-3 text-center mt-3 mb-3" style="background-color: #1569c7; color: #ffffff;">
+                <div class="container-fluid p-3 text-center mt-3 mb-3" id="impact" style="background-color: #006400; color: #ffffff;">
                     <div class="row">
                         <div class="col-sm-12 col-md-12">
                             <h1 class="section-heading light no-after">
@@ -60,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 Become a volunteer and help us in achieving our community empowerment programmed. </p>
 
                             <a href="/Home/Contact" class="btn btn-light margin-btn ml-2">LEARN MORE</a>
-                            <a href="/Home/Contact" class="btn btn-primary margin-btn mr-2">JOIN US NOW</a>
+                            <a href="/Home/Contact" class="btn btn-secondary margin-btn mr-2" >JOIN US NOW</a>
 
                         </div>
                     </div>
@@ -76,7 +75,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <div class="videoContainer"></div>
                     </div>
                     <div class="col-lg-6" data-aos="fade-left">
-                        <div class="card-header mt-3" id="headingOne">
+                        <div class="card-header mt-3" id="headingOneorigin">
                             <h4 class="title">Origin</h4>
                         </div>
                         <div class="card-body">
@@ -337,7 +336,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="section-title" data-aos="fade-up">
+                <div class="section-title" id="partners" data-aos="fade-up">
                     <h2>Our <span>Partners</h2>
                     <p class="subheading text-center">Some of our global partners include: </p>
                 </div>

@@ -20,7 +20,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="d-flex justify-content-between align-items-center">
                    
                     <ol>
-                        <li><a href="/Home">Home</a></li>
                         <li>Contact Us</li>
                     </ol>
                 </div>
