@@ -142,8 +142,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="col-sm-12 col-md-12 col-lg-12">
 					<div class="spacer-50"></div>
 					<div class="text-center">
-						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary  mt-3 ml-3" style="background-color: #006400;border-color: #006400;"><i class="bx bx-download" aria-hidden="true"></i> NEWS LETTER</a>
-						<a href="/assets/uploads/2021/04/SEP-Intro-Letter.doc" target='_blank' class="btn btn-primary mt-3 ml-3" style="background-color: #006400;border-color: #006400;"><i class="bx bx-download" aria-hidden="true"></i> INTRO LETTER</a>
+						<a href="/assets/uploads/2021/04/newsletter.pdf" target='_blank' class="btn btn-primary  mt-3" style="background-color: #006400;border-color: #006400;"><i class="bx bx-download" aria-hidden="true"></i> NEWS LETTER</a>
+						<!-- <a href="/assets/uploads/2021/04/SEP-Intro-Letter.doc" target='_blank' class="btn btn-primary mt-3 ml-3" style="background-color: #006400;border-color: #006400;"><i class="bx bx-download" aria-hidden="true"></i> INTRO LETTER</a> -->
 					</div>
 				</div>
 			</div>
@@ -204,92 +204,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 		</section>
 		<?php include 'counter.php' ?>
-		<section id="clients" class="clients">
-			<div class="container" data-aos="fade-up">
 
-				<div class="section-title">
-					<h2>Meet <span>Our</span> Volunteers</h2>
-				</div>
+		<div class="content-wrap content-wrap-2x">
+			<div class="container p-4">
 				<div class="row">
-					<div class="col-sm-6 col-lg-3 col-md-6">
-						<div class="rs-team-1">
-							<div class="media">
-								<img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" />
-							</div>
-							<div class="body">
-								<div class="text-black p-2">
-									<h4> Caroline Rufa</h4>
-								</div>
-								<div class="position"> </div>
-								<div class="social-links text-center text-md-right pt-3 pt-md-0">
-									<a href="#" class="twitter"><i class="bx bxl-twitter bx-md"></i></a>
-									<a href="#" class="facebook"><i class="bx bxl-facebook bx-md"></i></a>
-									<a href="#" class="instagram"><i class="bx bxl-instagram bx-md"></i></a>
-									<a href="#" class="google-plus"><i class="bx bxl-skype bx-md"></i></a>
-									<a href="#" class="linkedin"><i class="bx bxl-linkedin bx-md"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
+					<div class="col-sm-2 col-md-2"><a href="#" class="twitter"><i class="bx bxl-twitter bx-lg"></i></a></div>
+					<div class="col-sm-2 col-md-2"><a href="#" class="facebook"><i class="bx bxl-facebook bx-lg"></i></a></div>
+					<div class="col-sm-2 col-md-2"><a href="#" class="instagram"><i class="bx bxl-instagram bx-lg"></i></a></div>
+					<div class="col-sm-2 col-md-2"><a href="#" class="google-plus"><i class="bx bxl-skype bx-lg"></i></a></div>
+					<div class="col-sm-2 col-md-2"><a href="#" class="linkedin"><i class="bx bxl-linkedin bx-lg"></i></a></div>
 
-					<div class="col-sm-6 col-lg-3 col-md-6">
-						<div class="rs-team-1">
-							<div class="media">
-								<img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" />
-							</div>
-							<div class="body">
-								<div class="text-black p-2">
-									<h4> Sharon Andeso </h4>
-								</div>
-								<div class="position"> </div>
-								<div class="social-links text-center text-md-right pt-3 pt-md-0">
-									<a href="#" class="twitter"><i class="bx bxl-twitter bx-md"></i></a>
-									<a href="#" class="facebook"><i class="bx bxl-facebook bx-md"></i></a>
-									<a href="#" class="instagram"><i class="bx bxl-instagram bx-md"></i></a>
-									<a href="#" class="google-plus"><i class="bx bxl-skype bx-md"></i></a>
-									<a href="#" class="linkedin"><i class="bx bxl-linkedin bx-md"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-3 col-md-6">
-						<div class="rs-team-1">
-							<div class="media">
-								<img style="width: 255px; height: 230px;" src="/assets/uploads/2021/03/cQkY9g.jpg" alt="" />
-							</div>
-							<div class="body">
-								<div class="text-black p-2">
-									<h4> Jos Schaart </h4>
-								</div>
-								<div class="position"> </div>
-								<div class="social-links text-center text-md-right pt-3 pt-md-0">
-									<a href="#" class="twitter"><i class="bx bxl-twitter bx-md"></i></a>
-									<a href="#" class="facebook"><i class="bx bxl-facebook bx-md"></i></a>
-									<a href="#" class="instagram"><i class="bx bxl-instagram bx-md"></i></a>
-									<a href="#" class="google-plus"><i class="bx bxl-skype bx-md"></i></a>
-									<a href="#" class="linkedin"><i class="bx bxl-linkedin bx-md"></i></a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-lg-3 col-md-6">
-						<div class="promo-ads" data-background="https://sepke.org/wp-content/themes/CoolTheme/images/banner-ads.jpg">
-							<div class="content text-black ">
-								<i class="bx bx-bell bx-lg p-2"></i>
-								<h4 class="title text-black">Become a Volunteer</h4>
-								<p class="text-black">We need you now for world</p>
-								<p class="text-black">
-									Join us help the needy in our society </p>
-								<div class="spacer-30"></div>
-								<a href="/Home/Contact" class="btn btn-secondary">JOIN US NOW</a>
-							</div>
-						</div>
-					</div>
 				</div>
 			</div>
-		</section><!-- End Our Clients Section -->
+		</div>
 		<div class="container-fliud p-2" data-aos="fade-up">
 
 			<div class="row content">

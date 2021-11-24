@@ -31,23 +31,18 @@
 				<li><a <?php if ($_SESSION['page'] == 'contact') {  ?> class="active" <?php } ?> href="/Home/Contact" <?php if ($_SESSION['page'] == 'contact') {  ?> class="active" <?php } ?>>Contact Us</a></li>
 				<li><a href="/Home/Events" <?php if ($_SESSION['page'] == 'events') {  ?> class="active" <?php } ?>>Events</a></li>
 				<li><a href="/Home/Blog" <?php if ($_SESSION['page'] == 'blog') {  ?> class="active" <?php } ?>>Blog</a></li>
-				<li>
+				<li style="margin-left: 50px !important;">
 					<form action="https://www.paypal.com/donate" method="post" target="_top">
 						<input type="hidden" name="hosted_button_id" value="NK8FC8QRNLRKS" />
 						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
 						<img alt="" border="0" src="https://www.paypal.com/en_KE/i/scr/pixel.gif" width="1" height="1" />
 				</li>
-				<li><a href="mailto:info@sepke.org"><i class="bi bi-envelope-fill"> info@sepke.org</i> </a></li>
+				
 			</ul>
 
 		</nav><!-- .navbar -->
 
-		<div class="header-social-links d-flex">
-			<a href="#" class="twitter"><i class="bu bi-twitter"></i></a>
-			<a href="#" class="facebook"><i class="bu bi-facebook"></i></a>
-			<a href="#" class="instagram"><i class="bu bi-instagram"></i></a>
-			<a href="#" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
-		</div>
+		
 
 
 

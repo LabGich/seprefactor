@@ -19,8 +19,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container">
 
                 <div class="d-flex justify-content-between align-items-center">
-                
-                    <ol>                        
+
+                    <ol>
                         <li>About</li>
                     </ol>
                 </div>
@@ -59,7 +59,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 Become a volunteer and help us in achieving our community empowerment programmed. </p>
 
                             <a href="/Home/Contact" class="btn btn-light margin-btn ml-2">LEARN MORE</a>
-                            <a href="/Home/Contact" class="btn btn-secondary margin-btn mr-2" >JOIN US NOW</a>
+                            <a href="/Home/Contact" class="btn btn-secondary margin-btn mr-2">JOIN US NOW</a>
 
                         </div>
                     </div>
@@ -274,6 +274,80 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                 </div>
+                <section id="clients" class="clients">
+                    <div class="container" data-aos="fade-up">
+
+                        <div class="section-title">
+                            <h2>Meet <span>Our</span> Volunteers</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3 col-md-6">
+                                <div class="rs-team-1">
+                                    <div class="media">
+                                        <img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" />
+                                    </div>
+                                    <div class="body">
+                                        <div class="text-black p-2">
+                                            <h4> Caroline Rufa</h4>
+                                        </div>
+                                        <div class="position"> </div>
+                                        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3 col-md-6">
+                                <div class="rs-team-1">
+                                    <div class="media">
+                                        <img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" />
+                                    </div>
+                                    <div class="body">
+                                        <div class="text-black p-2">
+                                            <h4> Sharon Andeso </h4>
+                                        </div>
+                                        <div class="position"> </div>
+                                        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3 col-md-6">
+                                <div class="rs-team-1">
+                                    <div class="media">
+                                        <img style="width: 255px; height: 230px;" src="/assets/uploads/2021/03/cQkY9g.jpg" alt="" />
+                                    </div>
+                                    <div class="body">
+                                        <div class="text-black p-2">
+                                            <h4> Jos Schaart </h4>
+                                        </div>
+                                        <div class="position"> </div>
+                                        <div class="social-links text-center text-md-right pt-3 pt-md-0">
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 col-lg-3 col-md-6">
+                                <div class="promo-ads" data-background="https://sepke.org/wp-content/themes/CoolTheme/images/banner-ads.jpg">
+                                    <div class="content text-black ">
+                                        <i class="bx bx-bell bx-lg p-2"></i>
+                                        <h4 class="title text-black">Become a Volunteer</h4>
+                                        <p class="text-black">We need you now for world</p>
+                                        <p class="text-black">
+                                            Join us help the needy in our society </p>
+                                        <div class="spacer-30"></div>
+                                        <a href="/Home/Contact" class="btn btn-secondary">JOIN US NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section><!-- End Our Clients Section -->
                 <div class="section-title" data-aos="fade-up">
                     <h2>Join <strong>Our Team</strong></h2>
                     <a href="/Home/Contact" class="btn btn-secondary margin-btn">JOIN US NOW</a>
