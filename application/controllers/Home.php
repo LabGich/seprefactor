@@ -9,6 +9,37 @@ class Home extends CI_Controller {
 		$_SESSION['page'] = 'homepage';
 		$this->load->view('homepage');
 	}
+	function contactpost(){
+		$config['protocol']    = 'smtp';
+		$config['smtp_host']    = 'ssl://mail.supremecluster.com';
+		$config['smtp_port']    = '465';
+		$config['smtp_timeout'] = '7';
+		$config['smtp_user']    = 'mailserver@etherstaff.solutions';
+		$config['smtp_pass']    = 'Mails@ethersolutions12';
+		$config['charset']    = 'utf-8';
+		$config['newline']    = "\r\n";
+		$config['mailtype'] = 'text'; // or html
+		$config['validation'] = TRUE; // bool whether to validate email or not          
+
+		$this->email->initialize($config);
+
+		$this->load->library('email');
+
+		$this->email->from('mailserver@etherstaff.solutions', $_POST['name']);
+		$this->email->to('cheruiyotkenedy@gmail.com');
+		// $this->email->cc('info@etherstaff.solutions');
+		// $this->email->bcc('taye.ayeni@etherstaff.solutions');
+
+		$this->email->subject($_POST['subject']);
+		$message = $_POST['message']."\r\n \r\nEmail: " . $_POST['email'] . " \r\n Name: " . $_POST['name'];
+		$this->email->message($message);
+
+		if ($this->email->send()) {
+			echo "OK";
+		} else {
+			echo "Failed";
+		}
+	}
 	function About()
 	{
 		$_SESSION['page'] = 'about';

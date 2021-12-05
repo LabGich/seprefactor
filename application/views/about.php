@@ -30,10 +30,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         <!-- ======= About Us Section ======= -->
         <section id="about-us" class="about-us">
-            <div class="container" data-aos="fade-up">
+            <div class="container">
 
                 <div class="row content">
-                    <div class="col-lg-6" data-aos="fade-right">
+                    <div class="col-lg-6">
                         <h2 class="section-heading">Welcome <span>To</span> SEP</h2>
 
                         <p>
@@ -43,7 +43,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </p>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                        <img src="/assets/uploads/2021/06/WhatsApp-Image-2021-06-09-at-20.36.35.jpeg" class="img-fluid" alt="" />
+                    <img src="/assets/uploads/2021/06/WhatsApp-Image-2021-06-09-at-20.36.35.jpeg" class="img-fluid" alt="" />
                     </div>
                 </div>
                 <div class="container-fluid p-3 text-center mt-3 mb-3" id="impact" style="background-color: #006400; color: #ffffff;">
@@ -116,7 +116,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div>
+                <div  id="awards">
                     <h2>Awards</h2>
                     <p>SEP has enjoyed recognition for the success in its development through football activities by being nominated for the Global Barcelona Sports Award (GBS) for the best practices through football and Agriculture in 2012, hence was awarded a bronze trophy to that effect. In the same year 2012, SEP was nominated for yet another global award- Sports for Peace Award given by the Principality of Monaco for the best use of football for peace building and peace keeping. SEP was also nominated for the prestigious Barclay Beyond Sports for the use of Football and Agriculture for Employability and Enterprise.
                        <br>
@@ -132,16 +132,16 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <section id="team" class="team section-bg">
             <div class="container">
 
-                <div class="section-title" data-aos="fade-up">
+                <div class="section-title">
                     <h2>Our <strong>Team</strong></h2>
                 </div>
 
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Festus-Juma-Founder-and-Executive-Director.jpg" class="img-fluid" alt="">
+                            <img src="/assets/uploads/2021/02/Festus-Juma-Founder-and-Executive-Director.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -157,9 +157,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Maurice-Nyagwara-S4D-and-Agriculture-program-Coordinator-and-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
+                            <img src="/assets/uploads/2021/02/Maurice-Nyagwara-S4D-and-Agriculture-program-Coordinator-and-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -175,9 +175,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Masoud-Mohamed-SEP-Ladies-Soccer-Team-Manager-1.jpg" class="img-fluid" alt="">
+                            <img src="/assets/uploads/2021/02/Masoud-Mohamed-SEP-Ladies-Soccer-Team-Manager-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -193,9 +193,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" class="img-fluid" alt="">
+                            <img src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -211,9 +211,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Yvon-Ogada-SEP-Young-Women-and-Girls-Rescue-Centre-Volunteer-and-SEP-Ladies-Player-1.jpg" class="img-fluid" alt="">
+                            <img src="/assets/uploads/2021/02/Yvon-Ogada-SEP-Young-Women-and-Girls-Rescue-Centre-Volunteer-and-SEP-Ladies-Player-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -229,9 +229,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Rodgers-Munupi-Premier-League-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
+                            <img src="/assets/uploads/2021/02/Rodgers-Munupi-Premier-League-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -247,9 +247,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Lourraine-Chess-Founder-and-Director-SEP-Young-Women-and-Girls-Rescue-Centre-1.jpg" class="img-fluid" alt="">
+                                <img src="https://sepke.meneja.co.ke/assets/uploads/2021/02/Lourraine-Chess-Founder-and-Director-SEP-Young-Women-and-Girls-Rescue-Centre-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -265,9 +265,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
 
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-                        <div class="member" data-aos="fade-up">
+                        <div class="member">
                             <div class="member-img">
-                                <img src="/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" class="img-fluid" alt="">
+                                <img src="https://sepke.meneja.co.ke/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -284,7 +284,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                 </div>
                 <section id="clients" class="clients">
-                    <div class="container" data-aos="fade-up">
+                    <div class="container">
 
                         <div class="section-title">
                             <h2>Meet <span>Our</span> Volunteers</h2>
@@ -293,7 +293,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="col-sm-6 col-lg-3 col-md-6">
                                 <div class="rs-team-1">
                                     <div class="media">
-                                        <img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" />
+                                        <img style="width: 255px; height: 230px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" />
                                     </div>
                                     <div class="body">
                                         <div class="text-black p-2">
@@ -310,7 +310,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="col-sm-6 col-lg-3 col-md-6">
                                 <div class="rs-team-1">
                                     <div class="media">
-                                        <img style="width: 255px; height: 230px;" src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" />
+                                        <img style="width: 255px; height: 230px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" />
                                     </div>
                                     <div class="body">
                                         <div class="text-black p-2">
@@ -327,7 +327,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="col-sm-6 col-lg-3 col-md-6">
                                 <div class="rs-team-1">
                                     <div class="media">
-                                        <img style="width: 255px; height: 230px;" src="/assets/uploads/2021/03/cQkY9g.jpg" alt="" />
+                                        <img style="width: 255px; height: 230px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/03/cQkY9g.jpg" alt="" />
                                     </div>
                                     <div class="body">
                                         <div class="text-black p-2">
@@ -357,12 +357,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </section><!-- End Our Clients Section -->
-                <div class="section-title" data-aos="fade-up">
+                <div class="section-title">
                     <h2>Join <strong>Our Team</strong></h2>
                     <a href="/Home/Contact" class="btn btn-secondary margin-btn">JOIN US NOW</a>
                 </div>
 
-                <div class="section-title" data-aos="fade-up">
+                <div class="section-title">
                     <h2>Our <span>Volunteers </span><strong> Says</strong></h2>
                     <p class="subheading text-center">Some of our volunteer experiences: </p>
                 </div>
@@ -371,7 +371,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-sm-12 col-md-12">
                         <div class="testimonial-1">
                             <div class="media">
-                                <img src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" class="img-fluid" />
+                                <img src="https://sepke.meneja.co.ke/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" alt="" class="img-fluid" />
                             </div>
                             <div class="body">
                                 <p>
@@ -387,7 +387,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-sm-12 col-md-12">
                         <div class="testimonial-1">
                             <div class="media">
-                                <img src="/assets/uploads/2021/03/cQkY9g.jpg" alt="" class="img-fluid" />
+                                <img src="https://sepke.meneja.co.ke/assets/uploads/2021/03/cQkY9g.jpg" alt="" class="img-fluid" />
                             </div>
                             <div class="body">
                                 <p>
@@ -407,7 +407,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-sm-12 col-md-12">
                         <div class="testimonial-1">
                             <div class="media">
-                                <img src="/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" class="img-fluid" />
+                                <img src="https://sepke.meneja.co.ke/assets/uploads/2021/02/Caroline-Rufa-SEP-Youth-Sexual-Reproductive-Health-Coordinator-2.png" alt="" class="img-fluid" />
                             </div>
                             <div class="body">
                                 <p>
@@ -419,45 +419,45 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="section-title" id="partners" data-aos="fade-up">
+                <div class="section-title" id="partners">
                     <h2>Our <span>Partners</h2>
                     <p class="subheading text-center">Some of our global partners include: </p>
                 </div>
-                <div class="row gutter-5" data-aos="fade-up">
+                <div class="row gutter-5">
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0015.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0015.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0016.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0016.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0020.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0020.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/06/General-Picture_216.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/06/General-Picture_216.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/01/client2.png" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/01/client2.png" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0019.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0019.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0014.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0014.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0018.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0018.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0017.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0017.jpg" alt="" />
                     </div>
                     <div class="col-6 col-md-2">
-                        <img style="width: 240px;height: 190px;" src="/assets/uploads/2021/05/IMG-20210503-WA0012.jpg" alt="" />
+                        <img style="width: 240px;height: 190px;" src="https://sepke.meneja.co.ke/assets/uploads/2021/05/IMG-20210503-WA0012.jpg" alt="" />
                     </div>
                 </div>
             </div>
         </section><!-- End Our Team Section -->
-        <div class="container-fliud p-2" data-aos="fade-up">
+        <div class="container-fliud p-2">
 
             <div class="row content">
                 <div class="col-lg-9" data-aos="fade-right">

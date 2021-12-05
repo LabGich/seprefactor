@@ -32,7 +32,7 @@
 				<div class="col-lg-4 col-md-6 footer-links">
 					<h4>Our Projects</h4>
 					<ul>
-						<li><a class="bx bx-chevron-right" href="/Home/Sexualhealth">Sexual and Reproductive Health</a></li>
+						<li><a class="bx bx-chevron-right" href="/Home/Sexualhealthinfo">Sexual and Reproductive Health</a></li>
 						<li><a class="bx bx-chevron-right" href="/Home/Healthhygiene">Health and Hygiene</a></li>
 						<li><a class="bx bx-chevron-right" href="/Home/Communitydevelopment">Community Development</a></li>
 						<li><a class="bx bx-chevron-right" href="/Home/Soccer">Soccer/Football Program </a></li>

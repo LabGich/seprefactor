@@ -63,7 +63,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="row mt-5 justify-content-center" data-aos="fade-up">
                     <div class="col-lg-10">
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                        <form  method="post" role="form" class="php-email-form">
                             <div class="row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -78,7 +78,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="form-group mt-3">
                                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                             </div>                            
-                            <div class="text-center "><button type="submit" class="btn-success p-2 mt-2" style="border-radius: 24px;">Send Message</button></div>
+                            <div class="text-center "><button id="submitbtn" class="btn-success p-2 mt-2" style="border-radius: 24px;">Send Message</button></div>
                         </form>
                     </div>
 
@@ -94,14 +94,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <h3>
                         Help us continue to empower youths in Kenya and worldwide.
                     </h3>
-                </div>
-                <div class="col-lg-3" data-aos="fade-left">
-                    <form action="https://www.paypal.com/donate" method="post" target="_top">
-                        <input type="hidden" name="hosted_button_id" value="2MT9ZD7Y29KXY" />
-                        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                        <img alt="" border="0" src="https://www.paypal.com/en_KE/i/scr/pixel.gif" width="1" height="1" />
-                    </form>
-                </div>
+                </div>                
             </div>
 
         </div>
@@ -109,6 +102,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- ======= Footer ======= -->
     <?php include 'footer.php' ?>
+    <script>
+          $(document).ready(function() {
+            $("#submitbtn").click(function (event) {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+                var formValues = $(this).serialize();
+
+                $.post("/Home/contactpost", formValues, function(data) {
+                    // Display the returned data in browser
+                    
+                });
+            });
+        });
+        </script>
 </body>
 
 </html>
