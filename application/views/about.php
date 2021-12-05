@@ -116,6 +116,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
+                <div>
+                    <h2>Awards</h2>
+                    <p>SEP has enjoyed recognition for the success in its development through football activities by being nominated for the Global Barcelona Sports Award (GBS) for the best practices through football and Agriculture in 2012, hence was awarded a bronze trophy to that effect. In the same year 2012, SEP was nominated for yet another global award- Sports for Peace Award given by the Principality of Monaco for the best use of football for peace building and peace keeping. SEP was also nominated for the prestigious Barclay Beyond Sports for the use of Football and Agriculture for Employability and Enterprise.
+                       <br>
+                       <br>
+                       SEP has 1 award - Bronze Trophy
+                       <br>
+                       & 2 nominations</p>
+                </div>
 
             </div>
         </section><!-- End About Us Section -->

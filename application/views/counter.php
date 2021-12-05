@@ -33,7 +33,7 @@
 										<i class="bx bx-trophy bx-lg"></i>
 									</div>
 									<div class="body-content">
-										<h2>37</h2>
+										<h2>1</h2>
 										<p class="uk18">Awards</p>
 									</div>
 								</div>
