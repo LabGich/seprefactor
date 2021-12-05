@@ -24,10 +24,10 @@ class Home extends CI_Controller {
 		$_SESSION['page'] = 'events';
 		$this->load->view('events');
 	}
-	function Sexualhealth()
+	function Sexualhealthinfo()
 	{
 		$_SESSION['page'] = 'sexualhealth';
-		$this->load->view('sexualhealth');
+		$this->load->view('sexualhealthpg');
 	}
 	function Healthhygiene()
 	{

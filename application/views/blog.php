@@ -301,39 +301,40 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </ul>
                             </div><!-- End sidebar categories-->
 
-                            <h3 class="sidebar-title">Recent Posts</h3>
+                            <!-- <h3 class="sidebar-title">Recent Posts</h3>
                             <div class="sidebar-item recent-posts">
                                 <div class="post-item clearfix">
-                                    <img src="/assets/img/blog/blog-recent-1.jpg" alt="">
+                                    <img src="https://www.sepke.meneja.co.ke/assets/img/blog/blog-recent-1.jpg" alt="">
                                     <h4><a href="#">Test Recent to have content </a></h4>
                                     <time datetime="2021-11-01">Sep 21, 2021</time>
                                 </div>
 
                                 <div class="post-item clearfix">
-                                    <img src="/assets/img/blog/blog-recent-2.jpg" alt="">
+                                    <img src="https://www.sepke.meneja.co.ke/assets/img/blog/blog-recent-2.jpg" alt="">
                                     <h4><a href="#">Test Recent to have content </a></h4>
                                     <time datetime="2021-11-01">Sep 21, 2021</time>
                                 </div>
 
                                 <div class="post-item clearfix">
-                                    <img src="/assets/img/blog/blog-recent-3.jpg" alt="">
+                                    <img src="https://www.sepke.meneja.co.ke/assets/img/blog/blog-recent-3.jpg" alt="">
                                     <h4><a href="#">Test Recent to have content </a></h4>
                                     <time datetime="2021-11-01">Sep 21, 2021</time>
                                 </div>
 
                                 <div class="post-item clearfix">
-                                    <img src="/assets/img/blog/blog-recent-4.jpg" alt="">
+                                    <img src="https://www.sepke.meneja.co.ke/assets/img/blog/blog-recent-4.jpg" alt="">
                                     <h4><a href="#">Test Recent to have content </a></h4>
                                     <time datetime="2021-11-01">Sep 21, 2021</time>
                                 </div>
 
                                 <div class="post-item clearfix">
-                                    <img src="/assets/img/blog/blog-recent-5.jpg" alt="">
+                                    <img src="https://www.sepke.meneja.co.ke/assets/img/blog/blog-recent-5.jpg" alt="">
                                     <h4><a href="#">Test Recent to have content </a></h4>
                                     <time datetime="2021-11-01">Sep 21, 2021</time>
                                 </div>
 
-                            </div><!-- End sidebar recent posts-->
+                            </div> -->
+                            <!-- End sidebar recent posts-->
 
                             <h3 class="sidebar-title">Tags</h3>
                             <div class="sidebar-item tags">

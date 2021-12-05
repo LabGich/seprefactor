@@ -38,7 +38,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <div class="row">
                             <div class="media col-6">
-                                <img class="img-fluid" src="/assets/uploads/2021/05/20210504_112309.jpg" alt="" style="height: 281px;" />
+                                <img class="img-fluid" src="https://www.sepke.meneja.co.ke/assets/uploads/2021/05/20210504_112309.jpg" alt="" style="height: 281px;" />
                             </div>
                             <div class="body-content col-6">
 
@@ -64,7 +64,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                         <div class="row">
                             <div class="media col-6">
-                                <img class="img-fluid" src="/assets/uploads/2021/05/20210504_110154.jpg" alt="" style="height: 281px;" />
+                                <img class="img-fluid" src="https://www.sepke.meneja.co.ke/assets/uploads/2021/05/20210504_110154.jpg" alt="" style="height: 281px;" />
                             </div>
                             <div class="body-content col-6">
 
@@ -87,7 +87,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="icon-box iconbox-blue">                       
                         <div class="row">
                             <div class="media col-6">
-                                <img class="img-fluid" src="/assets/uploads/2021/05/20210504_105701.jpg" alt="" style="height: 281px;" />
+                                <img class="img-fluid" src="https://www.sepke.meneja.co.ke/assets/uploads/2021/05/20210504_105701.jpg" alt="" style="height: 281px;" />
                             </div>
                             <div class="body-content col-6">
 

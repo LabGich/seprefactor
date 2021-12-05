@@ -5,7 +5,7 @@
 			<div class="row">
 
 				<div class="col-lg-4 col-md-6 footer-contact">
-					<a href="/Home" class="logo me-auto me-lg-0"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>
+					<a href="/Home" class="logo me-auto me-lg-0"><img src="https://www.sepke.meneja.co.ke/assets/img/logo.png" alt="" class="img-fluid"></a>
 					<br>
 					<br>
 					<p>
@@ -32,11 +32,11 @@
 				<div class="col-lg-4 col-md-6 footer-links">
 					<h4>Our Projects</h4>
 					<ul>
-						<li><a class="bx bx-chevron-right" href="/Home/sexualhealth">Sexual and Reproductive Health</a></li>
-						<li><a class="bx bx-chevron-right" href="/Home/healthhygiene">Health and Hygiene</a></li>
-						<li><a class="bx bx-chevron-right" href="/Home/communitydevelopment">Community Development</a></li>
-						<li><a class="bx bx-chevron-right" href="/Home/soccer">Soccer/Football Program </a></li>
-						<li><a class="bx bx-chevron-right" href="/Home/youth">Youth Self-Help Agriculture Program</a></li>
+						<li><a class="bx bx-chevron-right" href="/Home/Sexualhealth">Sexual and Reproductive Health</a></li>
+						<li><a class="bx bx-chevron-right" href="/Home/Healthhygiene">Health and Hygiene</a></li>
+						<li><a class="bx bx-chevron-right" href="/Home/Communitydevelopment">Community Development</a></li>
+						<li><a class="bx bx-chevron-right" href="/Home/Soccer">Soccer/Football Program </a></li>
+						<li><a class="bx bx-chevron-right" href="/Home/Youth">Youth Self-Help Agriculture Program</a></li>
 					</ul>
 				</div>
 

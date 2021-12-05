@@ -3,7 +3,7 @@
 
 		<!-- <h1 class="logo me-auto"><a href="index.html"><span>Com</span>pany</a></h1> -->
 		<!-- Uncomment below if you prefer to use an image logo -->
-		<a href="/Home" class="logo me-auto me-lg-0"><img src="/assets/img/logo.png" alt="" class="img-fluid"></a>
+		<a href="/Home" class="logo me-auto me-lg-0"><img src="https://www.sepke.meneja.co.ke/assets/img/logo.png" alt="" class="img-fluid"></a>
 
 		<nav id="navbar" class="navbar order-last order-lg-0">
 			<i class="bi bi-list mobile-nav-toggle"></i>
@@ -21,11 +21,11 @@
 				</li>
 				<li class="dropdown"><a href="#"><span>Programs</span> <i class="bi bi-chevron-down"></i></a>
 					<ul>
-						<li><a <?php if ($_SESSION['page'] == 'sexualhealth') {  ?> class="active" <?php } ?> href="/Home/sexualhealth">Sexual and Reproductive Health</a></li>
-						<li><a <?php if ($_SESSION['page'] == 'healthhygiene') {  ?> class="active" <?php } ?> href="/Home/healthhygiene">Health and Hygiene</a></li>
-						<li><a <?php if ($_SESSION['page'] == 'communitydevelopment') {  ?> class="active" <?php } ?> href="/Home/communitydevelopment">Community Development</a></li>
-						<li><a <?php if ($_SESSION['page'] == 'soccer') {  ?> class="active" <?php } ?> href="/Home/soccer">Soccer/Football Program </a></li>
-						<li><a <?php if ($_SESSION['page'] == 'youth') {  ?> class="active" <?php } ?> href="/Home/youth">Youth Self-Help Agriculture Program</a></li>
+						<li><a <?php if ($_SESSION['page'] == 'sexualhealth') {  ?> class="active" <?php } ?> href="/Home/Sexualhealthinfo">Sexual and Reproductive Health</a></li>
+						<li><a <?php if ($_SESSION['page'] == 'healthhygiene') {  ?> class="active" <?php } ?> href="/Home/Healthhygiene">Health and Hygiene</a></li>
+						<li><a <?php if ($_SESSION['page'] == 'communitydevelopment') {  ?> class="active" <?php } ?> href="/Home/Communitydevelopment">Community Development</a></li>
+						<li><a <?php if ($_SESSION['page'] == 'soccer') {  ?> class="active" <?php } ?> href="/Home/Soccer">Soccer/Football Program </a></li>
+						<li><a <?php if ($_SESSION['page'] == 'youth') {  ?> class="active" <?php } ?> href="/Home/Youth">Youth Self-Help Agriculture Program</a></li>
 					</ul>
 				</li>
 				<li><a <?php if ($_SESSION['page'] == 'contact') {  ?> class="active" <?php } ?> href="/Home/Contact" <?php if ($_SESSION['page'] == 'contact') {  ?> class="active" <?php } ?>>Contact Us</a></li>
