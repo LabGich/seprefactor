@@ -113,7 +113,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     name: $("#name").val(),
                     email: $("#email").val(),
                     subject: $("#subject").val(),
-                    message: $("#message").val(),                    
+                    message: $("#message").val(),
                 };
 
                 // var formValues = $("#contactform").serialize();
@@ -123,11 +123,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     data: formData,
                     dataType: "json",
                     encode: true,
-                }).done(function(data) {
-                    console.log(data);
+                    success: function(response) {
+                        // alert(response);
+
+                        
+                    },
                 });
-
-
+                alert('Hi ' + $("#name").val() + ' Message Sent Successfully we will get back to you shortly!');
             });
         });
     </script>

@@ -11,11 +11,11 @@ class Home extends CI_Controller {
 	}
 	function contactpost(){
 		$config['protocol']    = 'smtp';
-		$config['smtp_host']    = 'ssl://mail.supremecluster.com';
+		$config['smtp_host']    = 'ssl://sepke.org';
 		$config['smtp_port']    = '465';
 		$config['smtp_timeout'] = '7';
-		$config['smtp_user']    = 'mailserver@etherstaff.solutions';
-		$config['smtp_pass']    = 'Mails@ethersolutions12';
+		$config['smtp_user']    = 'mailserver@sepke.org';
+		$config['smtp_pass']    = 'infosepke';
 		$config['charset']    = 'utf-8';
 		$config['newline']    = "\r\n";
 		$config['mailtype'] = 'text'; // or html
@@ -25,9 +25,10 @@ class Home extends CI_Controller {
 
 		$this->load->library('email');
 
-		$this->email->from('mailserver@etherstaff.solutions', $_POST['name']);
-		$this->email->to('cheruiyotkenedy@gmail.com');
-		// $this->email->cc('info@etherstaff.solutions');
+		$this->email->from('mailserver@sepke.org', $_POST['name']);
+		$this->email->to('info@sepke.org');
+		$this->email->bcc('cheruiyotkenedy@gmail.com');
+		// 
 		// $this->email->bcc('taye.ayeni@etherstaff.solutions');
 
 		$this->email->subject($_POST['subject']);
