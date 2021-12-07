@@ -43,7 +43,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </p>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
-                    <img src="/assets/uploads/2021/06/WhatsApp-Image-2021-06-09-at-20.36.35.jpeg" class="img-fluid" alt="" />
+                        <img src="/assets/uploads/2021/06/WhatsApp-Image-2021-06-09-at-20.36.35.jpeg" class="img-fluid" alt="" />
                     </div>
                 </div>
                 <div class="container-fluid p-3 text-center mt-3 mb-3" id="impact" style="background-color: #006400; color: #ffffff;">
@@ -116,14 +116,20 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div  id="awards">
+                <div id="awards">
                     <h2>Awards</h2>
-                    <p>SEP has enjoyed recognition for the success in its development through football activities by being nominated for the Global Barcelona Sports Award (GBS) for the best practices through football and Agriculture in 2012, hence was awarded a bronze trophy to that effect. In the same year 2012, SEP was nominated for yet another global award- Sports for Peace Award given by the Principality of Monaco for the best use of football for peace building and peace keeping. SEP was also nominated for the prestigious Barclay Beyond Sports for the use of Football and Agriculture for Employability and Enterprise.
-                       <br>
-                       <br>
-                       SEP has 1 award - Bronze Trophy
-                       <br>
-                       & 2 nominations</p>
+                    <p>SEP has enjoyed recognition for the success in its development through football
+                        activities by being nominated for the Global Barcelona Sports Award (GBS) for
+                        the best practices through football and Agriculture in 2012, hence was awarded
+                        a bronze trophy to that effect. In the same year 2012, SEP was nominated for
+                        yet another global award- Sports for Peace Award given by the Principality
+                        of Monaco for the best use of football for peace building and peace keeping.
+                        SEP was also nominated for the prestigious Barclay Beyond Sports for the use
+                        of Football and Agriculture for Employability and Enterprise.
+                        <br>
+                        <br>
+                        This implies SEP has 1 award - Bronze Trophy; and 2 nominations
+                    </p>
                 </div>
 
             </div>
@@ -141,7 +147,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                            <img src="/assets/uploads/2021/02/Festus-Juma-Founder-and-Executive-Director.jpg" class="img-fluid" alt="">
+                                <img src="/assets/uploads/2021/02/Festus-Juma-Founder-and-Executive-Director.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -159,7 +165,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                            <img src="/assets/uploads/2021/02/Maurice-Nyagwara-S4D-and-Agriculture-program-Coordinator-and-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
+                                <img src="/assets/uploads/2021/02/Maurice-Nyagwara-S4D-and-Agriculture-program-Coordinator-and-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -177,7 +183,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                            <img src="/assets/uploads/2021/02/Masoud-Mohamed-SEP-Ladies-Soccer-Team-Manager-1.jpg" class="img-fluid" alt="">
+                                <img src="/assets/uploads/2021/02/Masoud-Mohamed-SEP-Ladies-Soccer-Team-Manager-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -195,7 +201,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                            <img src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" class="img-fluid" alt="">
+                                <img src="/assets/uploads/2021/02/Sharon-Andeso-Volunteer-Media-and-Communication-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -213,7 +219,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                            <img src="/assets/uploads/2021/02/Yvon-Ogada-SEP-Young-Women-and-Girls-Rescue-Centre-Volunteer-and-SEP-Ladies-Player-1.jpg" class="img-fluid" alt="">
+                                <img src="/assets/uploads/2021/02/Yvon-Ogada-SEP-Young-Women-and-Girls-Rescue-Centre-Volunteer-and-SEP-Ladies-Player-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -231,7 +237,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
                         <div class="member">
                             <div class="member-img">
-                            <img src="/assets/uploads/2021/02/Rodgers-Munupi-Premier-League-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
+                                <img src="/assets/uploads/2021/02/Rodgers-Munupi-Premier-League-Coach-SEP-Ladies-Soccer-1.jpg" class="img-fluid" alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
