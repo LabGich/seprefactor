@@ -91,4 +91,8 @@ class Home extends CI_Controller {
 		$_SESSION['page'] = 'blog';
 		$this->load->view('blog');
 	}
+	function Blogmanage()
+	{
+		$this->load->view('addblog');
+	}
 }
