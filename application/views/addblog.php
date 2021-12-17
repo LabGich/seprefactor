@@ -101,6 +101,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>                   
                 </div>
                 <div id="summernote"></div>
+                <div class="text-center "><input type="button" id="submitbtn" class="btn btn-lg col-12 btn-success p-2 mt-2" style="border-radius: 24px;" value="Save Blog" /></div>
             </form>
         </div>
     </div>
@@ -108,7 +109,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         $('#summernote').summernote({
             placeholder: 'Paste your blog here ... ',
             tabsize: 2,
-            height: 450,
+            height: 650,
             toolbar: [
                 ['style', ['style']],
                 ['font', ['bold', 'underline', 'clear']],
@@ -119,6 +120,34 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 ['view', ['fullscreen', 'codeview', 'help']]
             ]
         });
+        $(document).ready(function() {
+            // $("#submitbtn").click(function (event) {
+            $('#submitbtn').on('click', function(event) {
+                event.preventDefault();
+                event.stopImmediatePropagation();
+                var formData = {
+                    title: $("#title").val(),
+                    blogcontent:  $('#summernote').summernote('code'),
+                };
+
+                // var formValues = $("#contactform").serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "/Home/saveblog",
+                    data: formData,
+                    dataType: "json",
+                    encode: true,
+                    success: function(response) {
+                        // alert(response);
+
+                        
+                    },
+                });
+                // alert('Blog Saved !');
+                location.reload();
+            });
+        });
+
     </script>
 </body>
 

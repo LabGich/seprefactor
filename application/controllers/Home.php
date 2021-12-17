@@ -1,15 +1,17 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller {
+class Home extends CI_Controller
+{
 
-	
+
 	public function index()
 	{
 		$_SESSION['page'] = 'homepage';
 		$this->load->view('homepage');
 	}
-	function contactpost(){
+	function contactpost()
+	{
 		$config['protocol']    = 'smtp';
 		$config['smtp_host']    = 'ssl://sepke.org';
 		$config['smtp_port']    = '465';
@@ -32,7 +34,7 @@ class Home extends CI_Controller {
 		// $this->email->bcc('taye.ayeni@etherstaff.solutions');
 
 		$this->email->subject($_POST['subject']);
-		$message = $_POST['message']."\r\n \r\nEmail: " . $_POST['email'] . " \r\n Name: " . $_POST['name'];
+		$message = $_POST['message'] . "\r\n \r\nEmail: " . $_POST['email'] . " \r\n Name: " . $_POST['name'];
 		$this->email->message($message);
 
 		if ($this->email->send()) {
@@ -94,5 +96,56 @@ class Home extends CI_Controller {
 	function Blogmanage()
 	{
 		$this->load->view('addblog');
+	}
+	function Admin()
+	{
+		$this->load->view('loginpage');
+	}
+	public function login()
+	{
+		$username = $_POST['username'];
+		$password = $_POST['password'];
+		$Access = '';
+
+		$getcreds = $this->db->query("SELECT * FROM users WHERE email = '$username' AND password = '$password' ");
+		$result = $getcreds->result();
+
+		foreach ($result as $value) {
+			$Uname = $value->email;
+			$Access = $value->usertype;
+			$ID = $value->id;
+
+
+			$_SESSION['username'] = $Uname;
+			$_SESSION['activity'] = time();
+			$_SESSION['id'] = $ID;
+			$_SESSION['access'] = $Access;
+		}
+		// var_dump(($value));
+
+
+
+		if ($Access == "Admin") {
+			echo 'Active';
+		} else {
+			echo 'Please Check Credentials and try again!';
+		}
+	}
+	function saveblog()
+	{
+		// var_dump($_POST);
+
+		$title = $_POST['title'];
+		$username = $_SESSION['username'];
+		$blogcontent = $_POST['blogcontent'];
+		$date = date('dS-M-Y h:i:s', time() + 3 * 60 * 60);
+
+		$insertintoblog = $this->db->query("Insert into blogpost(username,title,blogcontent,date) values('$username','$title','$blogcontent','$date')");
+		if ($this->db->affected_rows() > 0) {
+			echo "<script> alert ('Blog Saved Successfull!')</script>";
+			// redirect(base_url(), 'refresh');
+		} else {
+			echo "error in saving records";
+		}
 	}
 }
