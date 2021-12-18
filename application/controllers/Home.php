@@ -91,14 +91,46 @@ class Home extends CI_Controller
 	function Blog()
 	{
 		$_SESSION['page'] = 'blog';
-		$this->load->view('blog');
+		$getblogs = $this->db->query("SELECT * FROM blogpost");
+		$result['dataresult'] = $getblogs->result();
+		$this->load->view('blog', $result);
+	}
+	function Deleteblog()
+	{
+		$id = $_GET['id'];
+		$this->db->where('id', $id);
+		$this->db->delete('blogpost');
+	
+	}
+	function ViewBlog()
+	{
+		$_SESSION['page'] = 'blog';
+		if (isset($_SESSION['access'])) {
+			if ($_SESSION['access'] == "Admin") {
+				$getblogs = $this->db->query("SELECT * FROM blogpost");
+				$result['dataresult'] = $getblogs->result();
+				$this->load->view('viewblog',$result);
+			}
+		} else {
+			$_SESSION['page'] = 'blog';
+			$this->load->view('blog');
+		}
 	}
 	function Blogmanage()
 	{
-		$this->load->view('addblog');
+		$_SESSION['page'] = 'blog';
+		if (isset($_SESSION['access'])) {
+			if ($_SESSION['access'] == "Admin") {
+				$this->load->view('addblog');
+			}
+		} else {
+			$_SESSION['page'] = 'blog';
+			$this->load->view('blog');
+		}
 	}
 	function Admin()
 	{
+		$_SESSION['page'] = 'blog';
 		$this->load->view('loginpage');
 	}
 	public function login()
@@ -142,7 +174,7 @@ class Home extends CI_Controller
 
 		$insertintoblog = $this->db->query("Insert into blogpost(username,title,blogcontent,date) values('$username','$title','$blogcontent','$date')");
 		if ($this->db->affected_rows() > 0) {
-			echo "<script> alert ('Blog Saved Successfull!')</script>";
+			echo "Blog Saved Successfully !";
 			// redirect(base_url(), 'refresh');
 		} else {
 			echo "error in saving records";

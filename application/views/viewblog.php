@@ -79,82 +79,86 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
     </style>
     <title>Manage Blog</title>
+    <link href="https://cdn.datatables.net/buttons/2.1.0/css/buttons.dataTables.min.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap4.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-bs4.min.js"></script>
 </head>
 
 <body>
     <div class="sidebar">
         <span>Welcome <?= $_SESSION['username'] ?></span>
-        <a class="active" href="/Home/Blogmanage">New Blog</a>
-        <a href="/Home/ViewBlog">View Blogs</a>        
+        <a href="/Home/Blogmanage">New Blog</a>
+        <a class="active" href="/Home/ViewBlog">View Blogs</a>
         <a href="/Home">Main Site</a>
     </div>
-
     <div class="content">
         <div class="container mt-3 p-3">
+            <table id="blogslist" class="table table-striped table-bordered" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Username</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach ($dataresult as $value) { ?>
+                        <tr>
+                            <td><?= $value->title ?></td>
+                            <td><?= $value->username ?></td>
+                            <td><?= $value->date ?></td>
+                            <td class="text-danger"><a href="javascript:" id="delete_btn" role='<?php echo $value->id; ?>' class="fa fa-times" style="text-decoration:none; padding: 10px;">Delete</a></td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
 
-            <form id="blogpost" class="php-email-form mt-3">
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                        <input type="text" name="title" class="form-control" id="title" placeholder="Your Title" required>
-                    </div>                   
-                </div>
-                <div id="summernote"></div>
-                <div class="text-center "><input type="button" id="submitbtn" class="btn btn-lg col-12 btn-success p-2 mt-2" style="border-radius: 24px;" value="Save Blog" /></div>
-            </form>
         </div>
     </div>
-    <script>
-        $('#summernote').summernote({
-            placeholder: 'Paste your blog here ... ',
-            tabsize: 2,
-            height: 650,
-            toolbar: [
-                ['style', ['style']],
-                ['font', ['bold', 'underline', 'clear']],
-                ['color', ['color']],
-                ['para', ['ul', 'ol', 'paragraph']],
-                ['table', ['table']],
-                ['insert', ['link', 'picture', 'video']],
-                ['view', ['fullscreen', 'codeview', 'help']]
-            ]
-        });
-        $(document).ready(function() {
-            // $("#submitbtn").click(function (event) {
-            $('#submitbtn').on('click', function(event) {
-                event.preventDefault();
-                event.stopImmediatePropagation();
-                var formData = {
-                    title: $("#title").val(),
-                    blogcontent:  $('#summernote').summernote('code'),
-                };
 
-                // var formValues = $("#contactform").serialize();
-                $.ajax({
-                    type: "POST",
-                    url: "/Home/saveblog",
-                    data: formData,
-                    dataType: "json",
-                    encode: true,
-                    success: function(response) {
-                        alert(response);
 
-                        
-                    },
-                });
-                // alert('Blog Saved !');
-                window.location = '/Home/ViewBlog';                
-            });
-        });
-
-    </script>
 </body>
+<script>
+    $(document).ready(function() {
+        $('#blogslist').DataTable();
+    });
+    $(document).on('click', "#delete_btn", function(e) {
+      e.preventDefault();
+      var id = $(this).attr("role");
+      deleteuser(id);
+    });
+    function deleteuser(id) {
+      // alert ();
+
+      if (confirm("Are you sure you want to delete blog ?")) {
+        $.ajax({
+          url: '/Home/Deleteblog',
+          type: 'get',
+          data: {
+            id: id
+          },
+          success: function() {
+            alert('Deleted Successfully');
+            window.location.reload();
+            // window.location = '/Members';
+
+          },
+          error: function() {
+            alert('failed');
+          }
+        });
+      }
+    }
+</script>
 
 </html>

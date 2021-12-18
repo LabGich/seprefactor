@@ -74,7 +74,7 @@ style="background-image: url('assets/img/pic.jpg');
                     // Display the returned data in browser
                     console.log(data);
                     if (data == "Active") {
-                        alert('Success!!');
+                        alert('Welcome '+$("#username").val() +'!!');
                         window.location.href = 'Home/blogmanage';
 
                     } else {

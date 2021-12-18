@@ -18,3 +18,4 @@ CREATE TABLE `blogpost` (
 ) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
 
 insert into users values('','Kenedy Cheruiyot','cheruiyotkenedy@gmail.com','213213','ken','Admin');
+insert into users values('','Winfrida','winfrida@sepke.org','213213','winfrida','Admin');
