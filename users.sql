@@ -1,21 +1,45 @@
-CREATE TABLE `users` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `name` varchar(100) DEFAULT NULL,
-  `email` varchar(100) DEFAULT NULL,
-  `phoneno` varchar(100) DEFAULT NULL,
-  `password` varchar(100) DEFAULT NULL,
-  `usertype` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+CREATE TABLE `USERS` (
+  `ID` INT(11) NOT NULL AUTO_INCREMENT,
+  `NAME` VARCHAR(100) DEFAULT NULL,
+  `EMAIL` VARCHAR(100) DEFAULT NULL,
+  `PHONENO` VARCHAR(100) DEFAULT NULL,
+  `PASSWORD` VARCHAR(100) DEFAULT NULL,
+  `USERTYPE` VARCHAR(50) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=INNODB AUTO_INCREMENT=0 DEFAULT CHARSET=LATIN1;
 
-CREATE TABLE `blogpost` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(100) DEFAULT NULL,
-  `title` varchar(100) DEFAULT NULL,
-  `blogcontent` text DEFAULT NULL,
-  `date` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=latin1;
+CREATE TABLE `BLOGPOST` (
+  `ID` INT(11) NOT NULL AUTO_INCREMENT,
+  `USERNAME` VARCHAR(100) DEFAULT NULL,
+  `TITLE` VARCHAR(100) DEFAULT NULL,
+  `BLOGCONTENT` TEXT DEFAULT NULL,
+  `DATE` VARCHAR(100) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=INNODB AUTO_INCREMENT=0 DEFAULT CHARSET=LATIN1;
 
-insert into users values('','Kenedy Cheruiyot','cheruiyotkenedy@gmail.com','213213','ken','Admin');
-insert into users values('','Winfrida','winfrida@sepke.org','213213','winfrida','Admin');
+INSERT INTO USERS VALUES(
+  '',
+  'Kenedy Cheruiyot',
+  'cheruiyotkenedy@gmail.com',
+  '213213',
+  'ken',
+  'Admin'
+);
+
+INSERT INTO USERS VALUES(
+  '',
+  'Labrador Gichohi',
+  'labradorgichohi@gmail.com',
+  '213213',
+  'labu',
+  'Admin'
+);
+
+INSERT INTO USERS VALUES(
+  '',
+  'Winfrida',
+  'winfrida@sepke.org',
+  '213213',
+  'winfrida',
+  'Admin'
+);
